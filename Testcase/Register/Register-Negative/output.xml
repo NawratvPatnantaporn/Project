@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on darwin)" generated="2025-03-27T21:52:28.919192" rpa="false" schemaversion="5">
+<suite id="s1" name="TS01-Register" source="/Users/nawaratpatnantaporn/Desktop/Project/Testcase/Register/Register-Errorcase/TS01-Register.robot">
+<test id="s1-t1" name="TC-T107 Register with a password that is less than 13 characters and that not all numbers" line="148">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:28.997673" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:5173/'.</msg>
+<arg>http://localhost:5173/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-27T21:52:28.997583" elapsed="1.287608"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-03-27T21:52:30.286216" elapsed="0.122296"/>
+</kw>
+<kw name="Set Screenshot Directory" owner="SeleniumLibrary">
+<arg>less-than-13characters-and-that-not-all-numbers</arg>
+<doc>Sets the directory for captured screenshots.</doc>
+<status status="PASS" start="2025-03-27T21:52:30.408915" elapsed="0.000394"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:31.060444" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-1.png"&gt;&lt;img src="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-27T21:52:30.409595" elapsed="0.650919"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:31.060898" level="INFO">Clicking element '//*[@id="root"]/div/div[4]/header/div/div/nav/a[2]'.</msg>
+<arg>//*[@id="root"]/div/div[4]/header/div/div/nav/a[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-27T21:52:31.060656" elapsed="0.056020"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-27T21:52:33.117421" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-27T21:52:31.116869" elapsed="2.000685"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:33.439877" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-2.png"&gt;&lt;img src="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-27T21:52:33.118110" elapsed="0.321844"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:33.440232" level="INFO">Typing text 'nawarat26@gmail.com' into text field 'email'.</msg>
+<arg>email</arg>
+<arg>nawarat26@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-27T21:52:33.440103" elapsed="0.092636"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:33.819023" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-3.png"&gt;&lt;img src="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-27T21:52:33.532872" elapsed="0.286239"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:33.819491" level="INFO">Typing text 'Nawarat Patnantaporn' into text field 'name'.</msg>
+<arg>name</arg>
+<arg>Nawarat Patnantaporn</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-27T21:52:33.819370" elapsed="0.051976"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:34.168229" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-4.png"&gt;&lt;img src="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-27T21:52:33.871634" elapsed="0.296667"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:34.168621" level="INFO">Typing text 'IT' into text field 'department'.</msg>
+<arg>department</arg>
+<arg>IT</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-27T21:52:34.168434" elapsed="0.024658"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:34.490340" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-5.png"&gt;&lt;img src="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-27T21:52:34.193301" elapsed="0.297099"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:34.490595" level="INFO">Typing text '1339900785632' into text field 'idcard'.</msg>
+<arg>idcard</arg>
+<arg>1339900785632</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-27T21:52:34.490507" elapsed="0.031243"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:34.828310" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-6.png"&gt;&lt;img src="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-27T21:52:34.521882" elapsed="0.306515"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:34.828653" level="INFO">Typing text '0435216222' into text field 'phonenumber'.</msg>
+<arg>phonenumber</arg>
+<arg>0435216222</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-27T21:52:34.828535" elapsed="0.029801"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:35.159493" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-7.png"&gt;&lt;img src="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-7.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-27T21:52:34.858548" elapsed="0.301011"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:35.159798" level="INFO">Typing text '1339900785A' into text field 'password'.</msg>
+<arg>password</arg>
+<arg>1339900785A</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-27T21:52:35.159695" elapsed="0.030879"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:35.484704" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-8.png"&gt;&lt;img src="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-8.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-27T21:52:35.190740" elapsed="0.294200"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-27T21:52:37.485747" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-27T21:52:35.485253" elapsed="2.000779"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:37.797467" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-9.png"&gt;&lt;img src="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-27T21:52:37.486563" elapsed="0.310980"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:37.797804" level="INFO">Clicking button '//*[@id="root"]/div/div[4]/div/div/div[1]/form/button'.</msg>
+<arg>//*[@id="root"]/div/div[4]/div/div/div[1]/form/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-27T21:52:37.797698" elapsed="0.073277"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-27T21:52:39.871460" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-27T21:52:37.871118" elapsed="2.000565"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-27T21:52:40.117244" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-10.png"&gt;&lt;img src="less-than-13characters-and-that-not-all-numbers/selenium-screenshot-10.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-27T21:52:39.872029" elapsed="0.245291"/>
+</kw>
+<status status="PASS" start="2025-03-27T21:52:28.997184" elapsed="11.120273"/>
+</test>
+<doc>Test Register into We Are You website</doc>
+<status status="PASS" start="2025-03-27T21:52:28.920101" elapsed="11.197666"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TS01-Register" id="s1" pass="1" fail="0" skip="0">TS01-Register</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
