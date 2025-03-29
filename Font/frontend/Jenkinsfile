@@ -22,8 +22,8 @@ pipeline {
 
                 echo "Docker Image Run Container"
                 script {
-                    sh "docker rm -f Project_WRU-run || true"
-                    sh "docker run -d --name Project_WRU -p 54100:3000 Project_WRU"
+                    sh "docker rm -f W.R.U-Project-run || true"
+                    sh "docker run -d --name W.R.U-Project -p 54100:3000 W.R.U-Project"
                     echo "Docker Image Run Container Success"
                 }
             }
